@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noticias BA - ISEC</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+        <!-- Inicio del documento -->
+
+    <div id="mainContent">
+
+        <header>
+            <h1 class="titulo">
+                ba nOTICIAS
+            </h1>
+        </header>
+
+        <section id="contacto">
+
+            <form action="respuesta.html" method="post" id="formContacto">
+
+                <div>
+                    <label>
+                        Nombre y apellido
+                        <input type="text" name="nombreApellido" required>
+                    </label>
+                </div>
+                <div>
+                    <label for="inputEmail">Email</label>
+                    <input type="email" name="email" id="inputEmail" required>
+                </div>
+                <div>
+                    <label>
+                        Telefono
+                        <input type="tel" name="telefono" required>
+                    </label>
+                </div>
+                <!-- seleccionable / Combo -->
+                <div>
+
+                    Localidad 
+                    <select name="" required>
+                        <option value="">Seleccionar..</option>
+                        <option>Buenos Aires</option>
+                        <option>Santa Fe</option>
+                        <option>Cordoba</option>
+                        <option>Mendoza</option>
+                        <option>San Luis</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label>
+                        <input type="checkbox" name="suscripcion" checked>
+                        <span>Acepto suscribirme a la web y recibor todo el SPAM que que van a enviar</span>
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        Mensaje
+                        <textarea name="mensaje" required></textarea>
+                    </label>
+                </div>
+                <div>
+                    <!-- <button type="submit"></button> -->
+                    <input type="submit" value="Enviar Data!">
+                </div>
+            </form>
+            <!-- Formualrio de contacto / mensajes
+            nombre - apellido / email / telefono / localidad / pais / suscripcion / mensaje           
+            -->
+
+        </section>
+
+        <footer>
+
+        </footer>
+        
+
+    </div>
+</body>
+
+</html>
